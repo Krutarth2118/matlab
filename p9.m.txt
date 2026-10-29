@@ -1,0 +1,7 @@
+clc;
+close all;
+clear all;
+n= -10:1:10;
+x=sin(n);
+f=ztrans(x);
+stem(f);
